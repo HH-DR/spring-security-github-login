@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 922ca94d1af9e5b4c23a
+            clientSecret: 20896e13efd25245ef436af13c18f4f6e271957b
+#          facebook:
+#            clientId: 123456789
+#            clientSecret: 98765432321
+
+# could be written as application.properties as well
+# spring.security.oauth2.client.registration.github.clientId= 922ca94d1af9e5b4c23a
+# spring.security.oauth2.client.registration.github.clientSecret= 20896e13efd25245ef436af13c18f4f6e271957b
